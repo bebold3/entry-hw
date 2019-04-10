@@ -185,6 +185,7 @@ if (!app.requestSingleInstanceLock()) {
             width: 800,
             height: 670,
             title: title + packageJson.version,
+            nodeIntegration: false,
             webPreferences: {
                 backgroundThrottling: false,
             },
